@@ -1,16 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.image-item {
+  padding: 10px;
+}
+.container {
+  margin-top: 20px;
+}
+.container-with-dots {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.react-multi-carousel-dot-list {
+  bottom: 0px !important;
+}
+#__next {
+  overflow: scroll;
+  margin-bottom: 40px;
+}
+.react-multi-carousel-dot button {
+  border-color: grey !important;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+.first-carousel-container {
+  margin-bottom: 50px;
 }
